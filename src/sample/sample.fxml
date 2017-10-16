@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="424.0" prefWidth="627.0">
+         <children>
+            <Label fx:id="myLabel" alignment="TOP_CENTER" layoutX="110.0" layoutY="45.0" prefHeight="46.0" prefWidth="387.0" text="Labas" textFill="#c91818">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Button layoutX="457.0" layoutY="298.0" mnemonicParsing="false" onAction="#changeText" text="Pakeisti teksta" />
+            <TextField fx:id="nameInput" layoutX="43.0" layoutY="298.0" prefHeight="31.0" prefWidth="308.0" promptText="Iveskite varda" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>
